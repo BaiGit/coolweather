@@ -29,13 +29,6 @@
         android:theme="@style/AppTheme">
         <meta-data android:name="com.baidu.lbsapi.API_KEY"
             android:value="QKWfvB7M33k54CIj0xbv6PBVSvoXtGW2"/>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <service android:name="com.baidu.location.f" android:enabled="true"
             android:process="remote">
             </service>
